@@ -4,15 +4,208 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>iconagraphy styleguide</title>
+    <link rel="stylesheet" href="stylevv1.css">
+
 </head>
+<!-- gemaakt door ronaldo -->
 
-<H2>iconagraphy</H2>
-<br>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <title>styleguide</title>
+    <style>
 
+        
+        /* Additional CSS styles for the improved navigation bar */
+        .navbar {
+            background-color: #333333; /* Dark background color */
+            color: #fff; /* White text color */
+            padding: 10px 0;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        }
 
+        .navbar__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+        
+
+        .nav__logo {
+            text-decoration: none;
+        }
+
+        .nav__logo img {
+            height: 40px; /* Adjust the height as needed */
+        }
+
+        .navbar__menu {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .navbar__item {
+            margin-right: 20px; /* Spacing between menu items */
+        }
+
+        .navbar__links {
+            text-decoration: none;
+            color: #fff;
+            transition: color 0.3s ease;
+        }
+
+        .navbar__links:hover {
+            color: #00bcd4; /* Hover color */
+        }
+
+        /* Mobile menu toggle icon */
+        .navbar__toggle {
+            display: none;
+            cursor: pointer;
+            flex-direction: column;
+        }
+
+        .bar {
+            width: 25px;
+            height: 3px;
+            background-color: #fff;
+            margin: 3px 0;
+        }
+
+        @media (max-width: 768px) {
+            .navbar__toggle {
+                display: flex;
+            }
+
+            .navbar__menu {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 60px; /* Adjust as needed */
+                left: 0;
+                background-color: #333;
+                z-index: 1;
+            }
+
+            .navbar__menu.active {
+                display: flex;
+            }
+
+            .navbar__item {
+                margin: 10px 0;
+            }
+        }
+
+        body {
+      font-family: 'Arial', sans-serif;
+      margin: 20px;
+      text-align: center; /* De tekst wordt in het midden van het body-element geplaatst */
+    }
+
+    </style>
+</head>
 <body>
+   
+   
 
+<nav class="navbar">
+    <div class="navbar__container">
+        <a href="#home" class="nav__logo"><img src="assets/img/logo_spatwater.png" alt="Logo"></a>
+        <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+            <li class="navbar__item">
+                <a href="#home" class="navbar__links active" id="home-page">onderwerp2</a>
+            </li>
+            <li class="navbar__item">
+                <a href="#about" class="navbar__links" id="about-page">onderwerp1</a>
+            </li>
+            <li class="navbar__item">
+                <a href="#expertise" class="navbar__links" id="expertise-page">onderwerp 3</a>
+            </li>
+            <li class="navbar__item">
+                <a href="#portfolio" class="navbar__links" id="portfolio-page">onderwerp 4</a>
+            </li>
+            <li class="navbar__item">
+                <a href="#scroll-discover" class="navbar__links" id="discover-page">onderwerp 5</a>
+            </li>
+            <li class="navbar__item">
+                <a href="#experience" class="button_nav" id="signup-page">onderwerp 6</a>
+            </li>
+        </ul>
+    </div>
+</nav>
 
-    
+</body>
+
+<h1 id="styleguide">iconagraphy</h1>
+<hr>
+
+<div class="guidelines">
+    <article>
+        <h2>Ontwerpstijl:</h2>
+        <p>Maak de plaatjes simpel en plat.</p>
+        <p>📌 Niet te ingewikkeld met details of schaduwen; het moet er strak en modern uitzien.</p>
+    </article>
+
+    <article>
+        <h2>Vorm en Symmetrie:</h2>
+        <p>Zorg dat de vorm duidelijk herkenbaar is.</p>
+        <p>📌 Symmetrisch is mooi, maar het hoeft niet; herkenbaarheid is het belangrijkst.</p>
+    </article>
+
+    <article>
+        <h2>Lijndikte:</h2>
+        <p>Gebruik lijnen die niet te dun of te dik zijn, meestal .. pixels dik.</p>
+        <p>📌 Niet te dun zodat je het kan zien, maar ook niet te dik zodat het niet te zwaar oogt.</p>
+    </article>
+
+    <article>
+        <h2>Kleurgebruik:</h2>
+        <p>Gebruik het liefst de kleur van het logo voor de plaatjes.</p>
+        <p>📌 Soms andere kleuren, zoals aangegeven in de ontwerprichtlijnen.</p>
+    </article>
+
+    <article>
+        <h2>Schaalbaarheid:</h2>
+        <p>Zorg dat de plaatjes makkelijk groter of kleiner kunnen worden zonder dat het er slechter uitziet.</p>
+        <p>📌 Belangrijk voor verschillende schermformaten.</p>
+    </article>
+
+    <article>
+        <h2>Consistentie:</h2>
+        <p>Zorg dat de plaatjes passen bij de uitstraling van de website.</p>
+        <p>📌 Moeten niet heel anders zijn dan andere dingen op de website.</p>
+    </article>
+
+    <article>
+        <h2>Ruimtegebruik:</h2>
+        <p>Houd genoeg lege ruimte om elk plaatje zodat mensen goed kunnen zien waar het over gaat.</p>
+        <p>📌 Niet te vol; mensen moeten duidelijk kunnen zien.</p>
+    </article>
+
+    <article>
+        <h2>Voorbeeld op de Website:</h2>
+        <p>Kijk naar de plaatjes hieronder om te zien hoe ze eruit moeten zien op de website.</p>
+        <p>📌 Visueel referentiepunt voor juiste weergave.</p>
+    </article>
+</div>
+
+<div class="example">
+    <h2>Voorbeelden:</h2>
+    <!-- Hier onder komen de afbeeldingen van icons of links  -->
+</div>
+
 </body>
 </html>

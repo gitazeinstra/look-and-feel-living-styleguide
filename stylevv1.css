@@ -1,0 +1,153 @@
+
+
+/*----------------------------------------------- VIKTOR STYLING ------------------------------------- */
+body { 
+    min-height: 100vh;
+
+    font-family: sans-serif;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: 'kern' 1, 'liga' on, 'dlig' on;
+    line-height: 1.5;
+  
+    color: DarkSlateGray;
+    background-color: silver;
+}
+
+
+header{
+    display: grid;
+ position: fixed;
+ right: 0em;
+ top: 0em;
+ bottom: 0em;
+ left: 110em;
+text-transform: capitalize;
+background-color: aqua;
+
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+  list-style: none;
+  margin-bottom: 5px;  
+}
+
+li{
+    margin-bottom: 40px;
+    
+    justify-content:left;
+}
+
+
+/*----------------------------------------------- INEZ STYLING------------------------------------- */
+
+
+
+
+/*----------------------------------------------- LEMUEL STYLING------------------------------------- */
+/*-------------------------------------------------- buttons ------------------------------------------- */
+h2{
+    position: relative;
+    margin: 20px;
+  }
+  .buttons{
+    height: 100%;
+    width: 100%;
+  }
+  .button-size{
+    background-color: #ffffff;
+    display: flex;
+  }
+  .large{
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 0;
+    cursor: pointer;
+    margin: 20px;
+  
+    height: 50px;
+    width: 150px;
+  }
+  .medium{
+    border-radius: 8px;
+    font-weight: bold;
+    margin: 20px;
+  
+    height: 50px;
+    width: 100px;
+  }
+  .small{
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 20px;
+  
+    height: 52px;
+    width: 52px;
+  }
+  .small-lang{
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 20px;
+  
+    height: 40px;
+    width: 100px;
+  }
+  .verzenden{
+    border-radius: 100px;
+    font-weight: bold;
+    margin: 20px;
+  
+    height: 30px;
+    width: 90px;
+  }
+  .button-kleur{
+    background-color: #ffffff;
+    display: flex;
+  }
+  .button-kleur-1{
+    padding: 25px;
+    width: 150px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+   
+    /* ------------------------------kleur wanneer je niet op de button hovert ''inactive''-----------------------------------*/
+    background-color: #9CD67D;
+    color: #0C3900;
+  }
+  .button-kleur-2{
+    padding: 25px;
+    width: 150px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+  
+    /*------------------------------- kleur wanneer je wel over de button hovert ''active''----------------------------------- */
+    background-color: #0E373F;
+    color: #F6F7F7;
+  }
+  .button-kleur-3{
+    padding: 25px;
+    width: 150px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    /* ---------------------------------------------zwart-wit "neutrale kleur"----------------------------------------- */
+    background-color: white;
+    color: black;
+  }
+  .button-kleur-4{
+    padding: 25px;
+    width: 150px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+  /* ------------------------------------------------------extra kleurtje -------------------------------------------------------*/
+    background-color: #006319;
+    color: white;
+  }
+  
+  /* end buttons css */
