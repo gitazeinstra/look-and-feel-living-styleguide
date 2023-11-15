@@ -72,8 +72,9 @@ pre {
 /* typografie csss */
 
 
-main {
-  font-family: ;
+@font-face{
+  font-family: 'B-Rain';
+  src: url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap') format('normal');
 }
 
 
