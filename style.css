@@ -86,24 +86,24 @@ pre {
 
 /* buttons css */
 
-.button-test{
+.button-size{
   background-color: #ffffff;
 }
-.groen-1{
-  height: 60px;
-  width: 100px;
+.large{
+
   border-radius: 10px;
-  background-color: #006319;
-  color: white;
+  /* background-color: #006319; */
+  /* color: white; */
+  background-color: #9CD67D;
+  color: #0C3900;
   font-weight: bold;
   padding: 0;
-  border: none;
+  /* border: none; */
   cursor: pointer;
-  box-shadow: 7px 6px 28px 1px rgba(235, 235, 235, 0.24); 
- 
-
+  height: 50px;
+  width: 150px;
 }
-.groen-2{
+.medium{
   height: 60px;
   width: 100px;
   border-radius: 10px;
@@ -111,13 +111,44 @@ pre {
   color: #0C3900;
   font-weight: bold;
 }
-.groen-3{
+.small{
   height: 60px;
   width: 100px;
   border-radius: 10px;
   font-weight: bold;
 }
+.button-kleur{
+  background-color: #ffffff;
+}
+.button-kleur-1{
+  padding: 25px;
+  width: 150px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
 
+  /* kleur wanneer je niet op de button hovert ''inactive''*/
+  background-color: #9CD67D;
+  color: #0C3900;
+}
+.button-kleur-2{
+  padding: 25px;
+  width: 150px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
 
+  /* kleur wanneer je over de button hovert ''active'' */
+  background-color: #0E373F;
+  color: #F6F7F7;
+}
+.button-kleur-3{
+  padding: 25px;
+  width: 150px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
+
+}
 
 /* end buttons css */
