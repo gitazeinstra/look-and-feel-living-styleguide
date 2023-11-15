@@ -89,6 +89,10 @@ h2{
   position: relative;
   margin: 20px;
 }
+p{
+  margin: 10px;
+  width: 250px;
+}
 .buttons{
   height: 100%;
   width: 100%;
@@ -102,7 +106,7 @@ h2{
   font-weight: bold;
   padding: 0;
   cursor: pointer;
-  margin: 20px;
+  margin: 40px;
 
   height: 50px;
   width: 150px;
@@ -110,7 +114,7 @@ h2{
 .medium{
   border-radius: 8px;
   font-weight: bold;
-  margin: 20px;
+  margin: 40px;
 
   height: 50px;
   width: 100px;
@@ -118,7 +122,7 @@ h2{
 .small{
   border-radius: 5px;
   font-weight: bold;
-  margin: 20px;
+  margin: 40px;
 
   height: 52px;
   width: 52px;
@@ -126,7 +130,7 @@ h2{
 .small-lang{
   border-radius: 5px;
   font-weight: bold;
-  margin: 20px;
+  margin: 40px;
 
   height: 40px;
   width: 100px;
@@ -134,7 +138,7 @@ h2{
 .verzenden{
   border-radius: 100px;
   font-weight: bold;
-  margin: 20px;
+  margin: 40px;
 
   height: 30px;
   width: 90px;
