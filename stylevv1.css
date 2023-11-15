@@ -1,0 +1,28 @@
+
+header{
+    display: grid;
+ position: fixed;
+ right: 0em;
+ top: 0em;
+ bottom: 0em;
+ left: 110em;
+text-transform: capitalize;
+background-color: aqua;
+
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+  list-style: none;
+  margin-bottom: 5px;  
+}
+
+li{
+    margin-bottom: 40px;
+    
+    justify-content:left;
+}
+na
