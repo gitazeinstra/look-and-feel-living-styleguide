@@ -177,6 +177,9 @@ h2{
 /*----------------------------------------------- GITA STYLING ------------------------------------- */
 * {
   scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 section {
@@ -253,7 +256,7 @@ a {
 
 .nav-link p {
   position: absolute;
-  top: 20%;
+  top: 50%;
   left: 4em;
   transform: translateY(-50%);
 }
