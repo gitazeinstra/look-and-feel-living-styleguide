@@ -175,7 +175,7 @@ h2{
 
 section {
   width: 100%;
-  height: 100vh;
+  height: fit-content;
   border: solid red 1px;
 }
 
