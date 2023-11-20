@@ -3,6 +3,9 @@
   --background: #fafafa;
   --green: #4ecd5d;
   --darkblue: #384b61;
+  --darkerblue: #0E373F;
+  --darkgreen: #006319;
+  --lightgreen: #9CD67D;
 }
 
 /*----------------------------------------------- VIKTOR STYLING ------------------------------------- */
@@ -305,20 +308,32 @@ a {
   margin: 15px;
 }
 
-.color-card:nth-child(1) .color{
+.primary-colors .color-card:nth-child(1) .color{
   background-color: var(--darkblue);
 }
 
-.color-card:nth-child(2) .color{
+.primary-colors .color-card:nth-child(2) .color{
   background-color: var(--lightblue);
 }
 
-.color-card:nth-child(3) .color{
+.primary-colors .color-card:nth-child(3) .color{
   background-color: var(--green);
 }
 
-.color-card:nth-child(4) .color{
+.primary-colors .color-card:nth-child(4) .color{
   background-color: var(--background);
+}
+
+.secundary-colors .color-card:nth-child(1) .color{
+  background-color: var(--darkgreen);
+}
+
+.secundary-colors .color-card:nth-child(2) .color{
+  background-color: var(--darkerblue);
+}
+
+.secundary-colors .color-card:nth-child(3) .color {
+  background-color: var(--lightgreen);
 }
 
 /* Mobile First */
