@@ -72,6 +72,7 @@ h2{
   .button-size{
     background-color: #ffffff;
     display: flex;
+    justify-content: space-evenly;
   }
   .large{
     border-radius: 10px;
@@ -118,6 +119,7 @@ h2{
   .button-kleur{
     background-color: #ffffff;
     display: flex;
+    justify-content: space-evenly;
   }
   .button-kleur-1{
     padding: 25px;
