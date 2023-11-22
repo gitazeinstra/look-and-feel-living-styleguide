@@ -10,13 +10,13 @@
 /* buttons kleuren */
 button{
   --color-active: #F6F7F7;
-  --bg-active: #0E373F;
+  --background-color-active: #0E373F;
   --color-inactive: #0C3900;
-  --bg-inactive: #9cd67d;
+  --background-color-inactive: #9cd67d;
   --color-submit: #fff;
-  --bg-submit: #000;
+  --background-color-submit: #000;
   --color-extra: #fff;
-  --bg-extra: #006319;
+  --background-color-extra: #006319;
 }
 
 /*----------------------------------------------- VIKTOR STYLING ------------------------------------- */
