@@ -9,13 +9,13 @@
 }
 /* buttons kleuren */
 button{
-  --color-active: #F6F7F7;
+  --font-color-active: #F6F7F7;
   --background-color-active: #0E373F;
-  --color-inactive: #0C3900;
+  --font-color-inactive: #0C3900;
   --background-color-inactive: #9cd67d;
-  --color-submit: #fff;
+  --font-color-submit: #fff;
   --background-color-submit: #000;
-  --color-extra: #fff;
+  --font-color-extra: #fff;
   --background-color-extra: #006319;
 }
 
