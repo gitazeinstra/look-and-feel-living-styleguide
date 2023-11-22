@@ -8,15 +8,15 @@
   --lightgreen: #9CD67D;
 }
 /* buttons kleuren */
-:root{
-  --color-active-button: #F6F7F7;
-  --bg-active-button: #0E373F;
-  --color-inactive-button: #0C3900;
-  --bg-inactive-button: #9cd67d;
-  --color-submit-button: #fff;
-  --bg-submit-button: #000;
-  --color-extra-button: #fff;
-  --bg-extra-button: #006319;
+.buttons{
+  --color-active: #F6F7F7;
+  --bg-active: #0E373F;
+  --color-inactive: #0C3900;
+  --bg-inactive: #9cd67d;
+  --color-submit: #fff;
+  --bg-submit: #000;
+  --color-extra: #fff;
+  --bg-extra: #006319;
 }
 
 /*----------------------------------------------- VIKTOR STYLING ------------------------------------- */
