@@ -7,6 +7,17 @@
   --darkgreen: #006319;
   --lightgreen: #9CD67D;
 }
+/* buttons kleuren */
+button{
+  --font-color-active: #F6F7F7;
+  --background-color-active: #0E373F;
+  --font-color-inactive: #0C3900;
+  --background-color-inactive: #9cd67d;
+  --font-color-submit: #fff;
+  --background-color-submit: #000;
+  --font-color-extra: #fff;
+  --background-color-extra: #006319;
+}
 
 /*----------------------------------------------- VIKTOR STYLING ------------------------------------- */
 body {
