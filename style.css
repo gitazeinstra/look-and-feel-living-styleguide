@@ -1,69 +1,394 @@
+:root {
+  --lightblue: #7faec5;
+  --background: #fafafa;
+  --green: #4ecd5d;
+  --darkblue: #384b61;
+  --darkerblue: #0E373F;
+  --darkgreen: #006319;
+  --lightgreen: #9CD67D;
+}
+/* buttons kleuren */
+button{
+  --font-color-active: #F6F7F7;
+  --background-color-active: #0E373F;
+  --font-color-inactive: #0C3900;
+  --background-color-inactive: #9cd67d;
+  --font-color-submit: #fff;
+  --background-color-submit: #000;
+  --font-color-extra: #fff;
+  --background-color-extra: #006319;
+}
+
+/*----------------------------------------------- VIKTOR STYLING ------------------------------------- */
+body {
+  display: grid;
+  grid-template-areas: "nav main";
+  grid-template-columns: 20% 80%;
+    min-height: 100vh;
+
+    font-family: sans-serif;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: 'kern' 1, 'liga' on, 'dlig' on;
+    line-height: 1.5;
+  
+    color: DarkSlateGray;
+    background-color: var(--background);
+}
+
+nav {
+  grid-area: nav;
+}
+
+main {
+  grid-area: main;
+  width: 100%;
+  height: 100%;
+}
+
+header{
+    display: grid;
+ position: fixed;
+ right: 0em;
+ top: 0em;
+ bottom: 0em;
+ left: 110em;
+text-transform: capitalize;
+background-color: aqua;
+
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+  list-style: none;
+  margin-bottom: 5px;  
+}
+
+li{
+    margin-bottom: 40px;
+    
+    justify-content:left;
+}
+
+
+/*----------------------------------------------- INEZ STYLING------------------------------------- */
+
+
+
+
+/*----------------------------------------------- LEMUEL STYLING------------------------------------- */
+/*-------------------------------------------------- buttons ------------------------------------------- */
+h2{
+    position: relative;
+    margin: 20px;
+  }
+  .buttons{
+    height: 100%;
+    width: 100%;
+  }
+  .button-size{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .large{
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 0;
+    cursor: pointer;
+    margin: 20px;
+  
+    height: 50px;
+    width: 150px;
+  }
+  .medium{
+    border-radius: 8px;
+    font-weight: bold;
+    margin: 20px;
+  
+    height: 50px;
+    width: 100px;
+  }
+  .small{
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 20px;
+  
+    height: 52px;
+    width: 52px;
+  }
+  .small-lang{
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 20px;
+  
+    height: 40px;
+    width: 100px;
+  }
+  .verzenden{
+    border-radius: 100px;
+    font-weight: bold;
+    margin: 20px;
+  
+    height: 30px;
+    width: 90px;
+  }
+  .button-kleur{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .button-kleur-1{
+    padding: 25px;
+    width: 150px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+   
+    /* ------------------------------kleur wanneer je niet op de button hovert ''inactive''-----------------------------------*/
+    background-color: #9CD67D;
+    color: #0C3900;
+  }
+  .button-kleur-2{
+    padding: 25px;
+    width: 150px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+  
+    /*------------------------------- kleur wanneer je wel over de button hovert ''active''----------------------------------- */
+    background-color: #0E373F;
+    color: #F6F7F7;
+  }
+  .button-kleur-3{
+    padding: 25px;
+    width: 150px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    /* ---------------------------------------------zwart-wit "neutrale kleur"----------------------------------------- */
+    background-color: white;
+    color: black;
+  }
+  .button-kleur-4{
+    padding: 25px;
+    width: 150px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+  /* ------------------------------------------------------extra kleurtje -------------------------------------------------------*/
+    background-color: #006319;
+    color: white;
+  }
+  
+  /* end buttons css */
+
+/*----------------------------------------------- GITA STYLING ------------------------------------- */
 * {
-  box-sizing: border-box;
+  scroll-behavior: smooth;
   margin: 0;
   padding: 0;
-}
-
-:root {
-  font-size: min(calc(1em + 1vw), 4em);
-}
-
-body {
-  min-height: 100vh;
-
-  font-family: sans-serif;
-  text-rendering: optimizeLegibility;
-  font-feature-settings: 'kern' 1, 'liga' on, 'dlig' on;
-  line-height: 1.5;
-
-  color: DarkSlateGray;
-  background-color: silver;
-}
-
-body > * {
-  padding: 0.2rem;
-}
-
-header {
-  background-color: white;
-  margin-bottom: 1rem;
-  color: silver;
-}
-
-header > h1 {
-  font-size: 1rem;
-  text-align: right;
-}
-
-nav li {
-  display: inline;
-}
-
-nav li a {
-  text-decoration: none;
-}
-
-nav a.active {
-  font-weight: bold;
+  box-sizing: border-box;
 }
 
 section {
-  width: min(100%, 38rem);
-  background: white;
-  border-radius: 0.2rem;
-  padding: 0.2rem;
-}
-section + section {
-  margin-top: 1rem;
+  width: 100%;
+  height: fit-content;
+  border: solid red 1px;
+  z-index: 1;
 }
 
-h3 {
-  border-bottom: DarkSlateGray 1px solid;
-  margin-bottom: 1rem;
+/*Side navbar*/
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
-pre {
-  padding-left: 0.2rem;
-  background: DarkSlateGray;
-  color: white;
+/* Sidebar */
+.sidebar-trigger {
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4em;
+  background: #7faec5;
+}
+
+.sidebar-trigger > i {
+  display: inline-block;
+  margin: 1.5em 0 0 1.5em;
+  color: #fff;
+}
+
+.sidebar-nav {
+  position: fixed;
+  top: 0;
+  left: -15em;
+  overflow: hidden;
+  transition: all .3s ease-in;
+  width: 15em;
+  height: 100%;
+  background: #fff;
+  color: #384b61;
+  box-shadow: 5px 0 5px -5px rgba(51, 51, 51, 0.15);
+  z-index: 2;
+
+}
+
+.sidebar-nav:hover,
+.sidebar-nav:focus,
+.sidebar-trigger:focus + .sidebar-nav,
+.sidebar-trigger:hover + .sidebar-nav {
+  left: 0;
+}
+
+.sidebar-nav ul {
+  position: absolute;
+  top: 6em;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  width: 15em;
+}
+
+.sidebar-nav ul li {
+  width: 100%;
+  height: 3em;
+}
+
+.nav-link {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 3em;
+}
+
+.nav-link p {
+  position: absolute;
+  top: 50%;
+  left: 4em;
+  transform: translateY(-50%);
+}
+
+.nav-link:hover {
+  background: #384b61;
+  color: #fff;
+}
+
+.nav-link > i {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 4em;
+  height: 3em;
+}
+
+.nav-link > i::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*Colors*/
+.color-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0 20px 0;
+}
+
+.color-card {
+  width: 18rem;
+  height: 20rem;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.color {
+  width: 100%;
+  height: 75%;
+}
+
+.color-hex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color-hex code {
+  background-color: transparent;
+  font-size: 1.2rem;
+  margin: 15px;
+}
+
+.primary-colors .color-card:nth-child(1) .color{
+  background-color: var(--darkblue);
+}
+
+.primary-colors .color-card:nth-child(2) .color{
+  background-color: var(--lightblue);
+}
+
+.primary-colors .color-card:nth-child(3) .color{
+  background-color: var(--green);
+}
+
+.primary-colors .color-card:nth-child(4) .color{
+  background-color: var(--background);
+}
+
+.secundary-colors .color-card:nth-child(1) .color{
+  background-color: var(--darkgreen);
+}
+
+.secundary-colors .color-card:nth-child(2) .color{
+  background-color: var(--darkerblue);
+}
+
+.secundary-colors .color-card:nth-child(3) .color {
+  background-color: var(--lightgreen);
+}
+
+/* Mobile First */
+@media (min-width: 42em) {
+  /* Sidebar */
+  .sidebar-trigger {
+    width: 4em;
+  }
+
+  .sidebar-nav {
+    width: 4em;
+    left: 0;
+  }
+
+  .sidebar-nav:hover,
+  .sidebar-nav:focus,
+  .sidebar-trigger:hover + .sidebar-nav,
+  .sidebar-trigger:focus + .sidebar-nav {
+    width: 15em;
+  }
+}
+
+@media (min-width: 68em) {
+  /* Sidebar */
+  .sidebar-trigger {
+    display: none
+  }
+
+  .sidebar-nav {
+    width: 15em;
+  }
+
+  .sidebar-nav ul {
+    top: 1.3em;
+    font-size: 1.4em;
+  }
 }

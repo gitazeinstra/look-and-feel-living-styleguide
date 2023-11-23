@@ -1,0 +1,162 @@
+!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typografie living styleguide</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="Typografie">
+    <header>
+        Typografie
+    </header>
+    <hr>
+    <main>
+        <h4>Navigatie bar</h4>
+            <h1>B-Rain</h1>
+        <h2>Onder titel/titel kopje</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Esse sapiente deserunt cupiditate autem a repellendus delectus, cum vero sequi ab dolor magnam beatae ex tenetur sed repellat maxime perspiciatis quia.
+        </p>
+        <h3>Font 
+            <a href=https://fonts.google.com/specimen/Space+Grotesk?query=space> Space Grotesk</a>
+        </h3>
+            <!-- <p>
+                The <code>push()</code> method adds one or more elements to the end of an array and returns the new length of the
+                array.
+                </p> -->
+    </main>
+    
+
+<style>
+    main {
+       display: grid;
+       gap: 1em;
+       grid-column: 1fr 1fr;
+       grid-row: 1fr 1fr 1fr 1fr 1fr 1fr  1fr 1fr;
+       grid-template-areas: 
+       "h4 h3"
+       "h1 h3"
+       "h2 h3"
+       "p  h3";
+    }
+
+    main {
+        background-color: #eee;
+        border-radius: 3px;
+        font-family: courier, monospace;
+        padding: 0 3px;
+    }
+
+    header {
+        text-transform: uppercase;
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: 900;
+        
+    }
+
+
+    h1 {
+        font-family: 'Space Grotesk', sans-serif;
+        font-size: 70px;
+        font-weight: 700;
+
+        display: grid;
+        grid-column: 1, 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+
+        /* text-transform: capitalize; */
+        /* background-color: yellow; */
+
+    }
+
+    h2 {
+        font-family: 'Space Grotesk', sans-serif;
+        /* font-size: 20px; */
+        line-height: 1em;
+
+        display: grid;
+        grid-column-start: 1, 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        margin: 5% 0;
+
+        /* background-color: blue; */
+    }
+
+    h3 {
+        font-size: 20;
+        text-align: right;
+
+        place-content: center;
+        display: grid;
+        grid-column-start: 2;
+        grid-column-end: 3;
+
+        /* background-color: pink; */
+    }
+
+    h4 {
+        font-family: 'Space Grotesk', sans-serif;
+
+        /* background-color: red; */
+
+        display: grid;
+        grid-column-start: 1, 2;
+        grid-column-end: 1, 2;
+
+    }
+
+    p {
+        font-family: 'Space Grotesk', sans-serif;
+        font-size: min 16px;
+
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        margin: 5% 0;
+
+        /* background-color: black;
+        color: white; */
+
+
+        /* 
+           font van spatwater toepassen:
+        --body-font: 'Open Sans', sans-serif;
+        --title-font: 'Raleway', sans-serif;
+    */
+
+    }
+
+    
+
+
+</style> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+  </body>
+  </html>

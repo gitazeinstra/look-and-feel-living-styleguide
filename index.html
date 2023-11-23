@@ -1,55 +1,105 @@
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>[Projectnaam] living styleguide</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <h1>[Projectnaam] styleguide v0.1</h1>
-    </header>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/1a7045892e.js" crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
 
-    <nav>
-      <ul>
-        <li><a href="/" class="active">Globals</a></li>
-        <li><a href="/">...</a></li>
-      </ul>
-    </nav>
+<body>
+<!-- Sidebar -->
+<a class="sidebar-trigger" href="#">
+  <i class="fa fa-bars"></i>
+</a>
 
-    <main>
-      <h2>Globals</h2>
+<nav class="sidebar-nav">
+  <ul>
+    <li>
+      <a class="nav-link" href="#home">
+        <i class="fa fa-home"></i><p>Home</p>
+      </a>
+    </li>
+    <li>
+      <a class="nav-link" href="#colors">
+        <i class="fa-solid fa-palette"></i><p>Colors</p>
+      </a>
+    </li>
+    <li>
+      <a class="nav-link" href="#typography">
+        <i class="fa-solid fa-font"></i><p>Typograpy</p>
+      </a>
+    </li>
+    <li>
+      <a class="nav-link" href="#images">
+        <i class="fa-solid fa-image"></i><p>Images</p>
+      </a>
+    </li>
+    <li>
+      <a class="nav-link" href="#buttons">
+        <i class="fa-solid fa-toggle-on"></i><p>Buttons</p>
+      </a>
+    </li>
+    <li>
+      <a class="nav-link" href="#layout">
+        <i class="fa-solid fa-table"></i><p>Layout</p>
+      </a>
+    </li>
+  </ul>
+</nav>
 
-      <section>
-        <h3>Header</h3>
-        <img src="screenshot_van_je_header.png" alt="screenshot van je header" />
+<main>
+  <section class="home" id="home">
+    <h2>Home</h2>
+  </section>
 
-        <h4>Wel doen</h4>
-        <p>Vertel hoe dingen toegepast moeten worden.</p>
+  <section class="colors" id="colors">
+      <article class="primary-colors">
+          <h2>Primaire kleuren</h2>
+          <div class="color-wrapper">
+              <div class="color-card">
+                  <div class="color"></div>
+                  <div class="color-hex">
+                      <code> --darkblue: #384b61;</code>
+                  </div>
+              </div>
 
-        <h4>Niet doen</h4>
-        <p>Vertel hoe dingen vooral niet toegepast moeten worden.</p>
+              <div class="color-card">
+                  <div class="color"></div>
+                  <div class="color-hex">
+                      <code> --lightblue: #7faec5;</code>
+                  </div>
+              </div>
 
-        <!-- Om HTML in HTML te laten zien gebruik je &lt; voor de < en &gt; voor de > -->
-        <pre><code>&lt;header&gt;
-  &lt;h1&gt;Zo maak je een header&lt;/h1&gt;
-&lt;/header&gt;
+              <div class="color-card">
+                  <div class="color"></div>
+                  <div class="color-hex">
+                      <code> --green: #4ecd5d;</code>
+                  </div>
+              </div>
 
-header {
-  background-color: white;
-  margin-bottom: 1rem;
-  color: silver;
-}
+              <div class="color-card">
+                  <div class="color"></div>
+                  <div class="color-hex">
+                      <code> --background: #fafafa;</code>
+                  </div>
+              </div>
+          </div>
+      </article>
 
-header > h1 {
-  font-size: 1rem;
-  text-align: right;
-}
-  </code></pre>
-      </section>
+      <article class="secundary-colors">
+          <h2>Secundaire kleuren</h2>
+          <div class="color-wrapper">
+              <div class="color-card">
+                  <div class="color"></div>
+                  <div class="color-hex">
+                      <code> --darkgreen: #006319;</code>
+                  </div>
+              </div>
 
+<<<<<<< HEAD
 <<<<<<< Updated upstream
       <section>
         <h3>Footer</h3>
@@ -58,6 +108,8 @@ header > h1 {
     </main>
   </body>
 =======
+=======
+>>>>>>> main
               <div class="color-card">
                   <div class="color"></div>
                   <div class="color-hex">
@@ -83,6 +135,7 @@ header > h1 {
   <section class="Images" id="images">
     <h2>Images</h2>
   </section>
+<<<<<<< HEAD
   <article class="image-guidelines">
     <h3>Image Guidelines</h3>
     <p>Hier zijn richtlijnen voor het gebruik van afbeeldingen op de website:</p>
@@ -116,6 +169,8 @@ header > h1 {
     </ul>
   </article>
   
+=======
+>>>>>>> main
 
   <section class="buttons" id="buttons">
     <h1>Buttons</h1>
@@ -247,5 +302,8 @@ header > h1 {
 </main>
 
 </body>
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+>>>>>>> main
 </html>
