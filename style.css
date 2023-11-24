@@ -392,3 +392,103 @@ a {
     font-size: 1.4em;
   }
 }
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image-container img {
+  max-width: 15%;
+  height: auto;
+}
+
+
+/* Existing CSS remains unchanged */
+
+.section-heading {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.font-box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  border: 1px solid red;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.font-info {
+  flex: 0 0 25%;
+  padding-right: 20px;
+  box-sizing: border-box;
+  border-right: 1px solid #ddd;
+}
+
+.font-info h3,
+.font-info .font-size {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.body-text,
+.category-title {
+  flex: 0 0 75%;
+  color: #333;
+}
+
+.font-size {
+  font-size: 1rem;
+  color: #666;
+}
+
+.size-value {
+  font-weight: bold;
+  color: #333;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-right: 10px;
+  background-color: #fff;
+}
+
+
+.Typography .specific-heading .blue-text {
+  color: #0099ff;
+}
+
+.Typography .font-box .font-info h3,
+.Typography .font-box .font-info .font-size .blue-text {
+  color: #0099ff;
+}
+
+.Typography h3 .blue-text {
+  color: #0099ff;
+}
+
+
+.Typography .font-box h2 .blue-text,
+.Typography .font-box h3 .blue-text {
+  color: #0099ff;
+}
+
+.Typography .font-box .blue-text {
+  color: #0099ff;
+}
+
+
+
+.Typography .font-box h3.font-heading {
+  color: black;
+}
+
+.Typography .font-box .blue-text {
+  color: #0099ff;
+}
