@@ -196,7 +196,6 @@ h2{
 section {
   width: 100%;
   height: fit-content;
-  border: solid red 1px;
   z-index: 1;
 }
 
